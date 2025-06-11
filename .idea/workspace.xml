@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8c3e16f6-5276-45d5-af71-6f64d99e2e24" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/challenges/find_the_discount_easy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenges/finding_adjacent_nodes_medium.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenges/how_edabit_works_very_easy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenges/imaginary_coding_interview.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenges/return_the_sum_of_two_numbers_very_easy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenges/stuttering_function_easy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenges/virtual_dac_medium.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ramp-up-25.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ramp-up-25.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "azimotechin"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/azimotechin/ramp-up-25.git",
+    "accountId": "248d3862-8c86-4ee7-b663-d830f5e02ff3"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2yLCqRx2UMiN1lYU3INDtiLKKgX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.how_edabit_works_very_easy.executor": "Run",
+    "Python.return_the_sum_of_two_numbers_very_easy.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-PY-251.25410.159" />
+        <option value="bundled-python-sdk-e0ed3721d81e-36ea0e71a18c-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.25410.159" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c3e16f6-5276-45d5-af71-6f64d99e2e24" name="Changes" comment="" />
+      <created>1749604657010</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1749604657010</updated>
+      <workItem from="1749604658033" duration="3169000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ramp_up_25$how_edabit_works_very_easy.coverage" NAME="how_edabit_works_very_easy Coverage Results" MODIFIED="1749604943733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/challenges" />
+    <SUITE FILE_PATH="coverage/ramp_up_25$return_the_sum_of_two_numbers_very_easy.coverage" NAME="return_the_sum_of_two_numbers_very_easy Coverage Results" MODIFIED="1749605071720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/challenges" />
+  </component>
+</project>
