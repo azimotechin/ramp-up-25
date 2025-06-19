@@ -1,0 +1,40 @@
+#In this file, you will define your three services:
+
+  #A redis service: You'll tell Docker Compose to use the official redis:latest image from Docker Hub.
+  #A publisher service: You will instruct Docker Compose to build a Docker image for this service. \
+    #This means it will look for a Dockerfile in the same directory and use it to create the image. \
+    #You will also need to map ports (e.g., map port 8000 of the container to port 8000 on your local machine), \
+    #so you can access the FastAPI web server from your browser.
+  #A subscriber service: Similar to the publisher, you will tell Docker Compose to build the image for this service from its own Dockerfile. \
+    #It doesn't need any ports mapped since it just prints to the console.
+
+#A key concept here is service discovery. \
+  #The docker-compose.yml file creates a network where containers can find each other using their service names. \
+  #For example, from your Python code inside the publisher container, \
+  #you will be able to connect to Redis using the hostname redis, not localhost.
+
+services:
+
+  publisher:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    depends_on:
+      - redis
+
+  subscriber:
+    build: .
+    volumes:
+      - .:/app
+    depends_on:
+      - redis
+    command: ["python", "subscriber.py"]
+    environment:
+      - PYTHONUNBUFFERED=1
+
+  redis:
+    image: "redis:latest"
+    ports:
+      - "6379:6379"
